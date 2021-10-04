@@ -10,6 +10,7 @@ import Webinars from './Components/Webinars';
 import Conference from './Components/Conference';
 import Videos from './Components/Videos';
 import Podcast from './Components/PodCast';
+import PmSeries from './Components/PmSeries';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
      <Webinars/>
      <Conference/>
      <Videos/>
+     <PmSeries/>
      <Podcast/>
+     
     </div>
   );
 }

@@ -24,7 +24,7 @@ const responsive = {
   }
 };
 
-class Podcast extends Component {
+class PmSeries extends Component {
   state = {
     
     data: [
@@ -40,18 +40,10 @@ class Podcast extends Component {
        
         link:'https://img.youtube.com/vi/Dwc9RlGgLhk/maxresdefault.jpg',
         video:"https://www.youtube.com/watch/Dwc9RlGgLhk"
-      }, {
+      },{
        
         link:'https://img.youtube.com/vi/X7EK8tLarFw/maxresdefault.jpg',
         video:"https://www.youtube.com/watch/X7EK8tLarFw"
-      }, {
-       
-        link:'https://img.youtube.com/vi/Dwc9RlGgLhk/maxresdefault.jpg',
-        video:"https://www.youtube.com/watch/Dwc9RlGgLhk"
-      }, {
-       
-        link:'https://img.youtube.com/vi/zXJ8bDDeu0g/maxresdefault.jpg',
-        video:"https://www.youtube.com/watch/zXJ8bDDeu0g"
       },
     ],
   };
@@ -60,10 +52,10 @@ class Podcast extends Component {
 
   render() {
     return (
-      <div className="about container pb-5">
+      <div className="about container">
         <div className="about container">
           <h1 className="pt-5 pb-4">
-          <h1 className="trainingHeading" >Podcast</h1>
+          <h1 className="trainingHeading" >PM Speak Series</h1>
           </h1>
          
             <div>
@@ -89,4 +81,4 @@ class Podcast extends Component {
   }
 }
 
-export default Podcast;
+export default PmSeries;
