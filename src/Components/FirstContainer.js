@@ -24,13 +24,12 @@ const FirstContainer = () => {
                 <h3>Trainings</h3>
 
 
-
                 <OverlayTrigger
                     placement="right"
                     delay={{ show: 250, hide: 400 }}
                     overlay={renderTooltip}
                 >
-                    <Button>Hover me to see</Button>
+                    <Button variant="outline-light">Hover me to see</Button>
                 </OverlayTrigger>
                 <h3>Meetups</h3>
                 <h3>Wbinars</h3>

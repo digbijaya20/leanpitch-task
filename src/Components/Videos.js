@@ -30,19 +30,20 @@ class Videos extends Component {
     data: [
       {
        
-        link:'https://img.youtube.com/vi/OYr-KPboPDw/0.jpg',
-        video:"https://www.youtube.com/watch/OYr-KPboPDw"
+        link:'https://img.youtube.com/vi/sU0f5GLJMHE/maxresdefault.jpg',
+        video:"https://www.youtube.com/watch/sU0f5GLJMHE",
+        
       },
       {
        
-        link:'https://img.youtube.com/vi/OYr-KPboPDw/0.jpg',
-        video:"https://www.youtube.com/watch/OYr-KPboPDw"
+        link:'https://img.youtube.com/vi/X7EK8tLarFw/maxresdefault.jpg',
+        video:"https://www.youtube.com/watch/X7EK8tLarFw"
 
       },
       {
      
-        link:'https://img.youtube.com/vi/OYr-KPboPDw/0.jpg',
-        video:"https://www.youtube.com/watch/OYr-KPboPDw"
+        link:'https://img.youtube.com/vi/xPl_DFasIG0/maxresdefault.jpg',
+        video:"https://www.youtube.com/watch/xPl_DFasIG0"
 
       },
       

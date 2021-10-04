@@ -30,51 +30,33 @@ class Podcast extends Component {
     data: [
       {
        
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-      },
-      {
-        
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
+        link:'https://img.youtube.com/vi/zXJ8bDDeu0g/maxresdefault.jpg',
+        video:"https://www.youtube.com/watch/zXJ8bDDeu0g"
+      }, {
        
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
-     
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
+        link:'https://img.youtube.com/vi/sU0f5GLJMHE/maxresdefault.jpg',
+        video:"https://www.youtube.com/watch/sU0f5GLJMHE"
+      }, {
        
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
-     
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
+        link:'https://img.youtube.com/vi/Dwc9RlGgLhk/maxresdefault.jpg',
+        video:"https://www.youtube.com/watch/Dwc9RlGgLhk"
+      }, {
        
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
+        link:'https://img.youtube.com/vi/X7EK8tLarFw/maxresdefault.jpg',
+        video:"https://www.youtube.com/watch/X7EK8tLarFw"
+      }, {
        
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
+        link:'https://img.youtube.com/vi/Dwc9RlGgLhk/maxresdefault.jpg',
+        video:"https://www.youtube.com/watch/Dwc9RlGgLhk"
+      }, {
+       
+        link:'https://img.youtube.com/vi/zXJ8bDDeu0g/maxresdefault.jpg',
+        video:"https://www.youtube.com/watch/zXJ8bDDeu0g"
       },
-      {
-    
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      }
     ],
-   
   };
+
+  //https://www.youtube.com/watch?v=xPl_DFasIG0
 
   render() {
     return (
@@ -91,8 +73,9 @@ class Podcast extends Component {
                 {this.state.data.map((each, index) => {
                   return (
                     <div key={each.index}>
-                    <iframe style={{width:'95%'}} src={each.link}>
-        </iframe>
+                      <a href={each.video} target="_blank">
+                    <img style={{width:'95%'}} height="150px" src={each.link} />
+                    </a>
                     
             </div>
                   );
