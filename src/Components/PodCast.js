@@ -26,75 +26,64 @@ const responsive = {
 
 class Podcast extends Component {
   state = {
-    loading: false,
+    
     data: [
       {
-        urlToImage: "agagag",
-        title: "agaggagagag",
+       
         link:'https://www.youtube.com/embed/tgbNymZ7vqY'
       },
       {
-        urlToImage: "agagag",
-        title: "agaggagagag",
+        
         link:'https://www.youtube.com/embed/tgbNymZ7vqY'
 
       },
       {
-        urlToImage: "agagag",
-        title: "agaggagagag",
+       
         link:'https://www.youtube.com/embed/tgbNymZ7vqY'
 
       },
       {
-        urlToImage: "agagag",
-        title: "tatata",
+     
         link:'https://www.youtube.com/embed/tgbNymZ7vqY'
 
       },
       {
-        urlToImage: "agagag",
-        title: "agaggagaatatatatagag",
+       
         link:'https://www.youtube.com/embed/tgbNymZ7vqY'
 
       },
       {
-        urlToImage: "agagag",
-        title: "agaggagagppppppppag",
+     
         link:'https://www.youtube.com/embed/tgbNymZ7vqY'
 
       },
       {
-        urlToImage: "agagag",
-        title: "agaggaqwertyujnbvcdrtyujgagag",
+       
         link:'https://www.youtube.com/embed/tgbNymZ7vqY'
 
       },
       {
-        urlToImage: "agagag",
-        title: "agaggjtresxcvbhjiuytrdagagag",
+       
         link:'https://www.youtube.com/embed/tgbNymZ7vqY'
 
       },
       {
-        urlToImage: "agagag",
-        title: "agaguytrsdfghjhfgagagag",
+    
         link:'https://www.youtube.com/embed/tgbNymZ7vqY'
 
       }
     ],
-    headline: []
+   
   };
 
   render() {
     return (
       <div className="about container">
         <div className="about container">
-          <h1 className="text-left">
-          <h1 className="trainingHeading" >Videos</h1>
+          <h1 className="pt-5 pb-4">
+          <h1 className="trainingHeading" >Podcast</h1>
           </h1>
-          {this.state.loading ? (
-            "loading..."
-          ) : (
+         
             <div>
               <Carousel responsive={responsive}
             //   customRightArrow
@@ -110,7 +99,7 @@ class Podcast extends Component {
                 })}
               </Carousel>
             </div>
-          )}
+        
         </div>
       </div>
     );

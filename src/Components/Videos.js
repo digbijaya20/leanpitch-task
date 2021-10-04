@@ -30,49 +30,23 @@ class Videos extends Component {
     data: [
       {
        
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
+        link:'https://img.youtube.com/vi/OYr-KPboPDw/0.jpg',
+        video:"https://www.youtube.com/watch/OYr-KPboPDw"
       },
       {
        
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
+        link:'https://img.youtube.com/vi/OYr-KPboPDw/0.jpg',
+        video:"https://www.youtube.com/watch/OYr-KPboPDw"
 
       },
       {
      
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
+        link:'https://img.youtube.com/vi/OYr-KPboPDw/0.jpg',
+        video:"https://www.youtube.com/watch/OYr-KPboPDw"
 
       },
-      {
+      
      
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
-       
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
-       
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
-        urlToImage: "agagag",
-        title: "agaggaqwertyujnbvcdrtyujgagag",
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
-       
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      },
-      {
-       
-        link:'https://www.youtube.com/embed/tgbNymZ7vqY'
-
-      }
     ],
     
   };
@@ -81,12 +55,10 @@ class Videos extends Component {
     return (
       <div className="about container">
         <div className="about container">
-          <h1 className="text-left">
+          <h1 className="pt-5 pb-4" >
           <h1 className="trainingHeading" >Videos</h1>
           </h1>
-          {this.state.loading ? (
-            "loading..."
-          ) : (
+         
             <div>
               <Carousel responsive={responsive}
             //   customRightArrow
@@ -94,15 +66,17 @@ class Videos extends Component {
                 {this.state.data.map((each, index) => {
                   return (
                     <div key={each.index}>
-                    <iframe style={{width:'95%'}} src={each.link}>
-        </iframe>
+                      <a href={each.video} target="_blank">
+                    <img style={{width:'95%'}} height="150px" src={each.link} />
+                    </a>
+       
                     
             </div>
                   );
                 })}
               </Carousel>
             </div>
-          )}
+        
         </div>
       </div>
     );
