@@ -1,8 +1,6 @@
 
 import { Container } from 'react-bootstrap';
 import { Dropdown } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import { ButtonGroup } from 'react-bootstrap';
 import ToggleButton from '@material-ui/lab/ToggleButton';
 import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
 
@@ -24,13 +22,7 @@ const useStyle = makeStyles((theme) => ({
 const MeetUps = () => {
     const classes = useStyle();
 
-    const [checked, setChecked] = useState(false);
-    const [radioValue, setRadioValue] = useState('1');
-
-    const radios = [
-        { name: 'Upcoming', value: '1' },
-        { name: 'Past', value: '2' },
-    ];
+    
 
 
     const [alignment, setAlignment] = useState('left');
